@@ -1,0 +1,9 @@
+# python
+*.pyc
+.python-version
+
+# mac
+.DS_Store
+
+# pycharm
+.idea/
