@@ -1,6 +1,8 @@
 # Levinson-Durbin Algorithm
 - Python implementation of Levinson-Durbin Algorithm.
 
+## Example
+
 ```python
 import numpy as np
 
@@ -14,3 +16,7 @@ ld = LevinsonDurbinRecursion(toeplitz_matrix_elements)
 solutions = ld.solve()
 print(solutions)
 ```
+
+## References
+- https://en.wikipedia.org/wiki/Toeplitz_matrix
+- http://www.emptyloop.com/technotes/A%20tutorial%20on%20linear%20prediction%20and%20Levinson-Durbin.pdf
