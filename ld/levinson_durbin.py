@@ -3,7 +3,6 @@ import numpy as np
 
 class LevinsonDurbinRecursion:
     """
-    Article | Code
     --------|---------------------
     R_k     | toeplitz_elements[k]
     --------|---------------------
